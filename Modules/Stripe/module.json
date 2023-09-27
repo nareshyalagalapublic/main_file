@@ -1,0 +1,19 @@
+{
+    "name": "Stripe",
+    "alias": "Stripe",
+    "version": "2.4",
+    "description": "",
+    "keywords": [],
+    "priority": 180,
+    "providers": [
+        "Modules\\Stripe\\Providers\\StripeServiceProvider",
+        "Modules\\Stripe\\Providers\\ViewComposer",
+        "Modules\\Stripe\\Providers\\InvoicePayment",
+        "Modules\\Stripe\\Providers\\SalesInvoicePayment",
+        "Modules\\Stripe\\Providers\\RetainerPayment"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "display": true
+}
